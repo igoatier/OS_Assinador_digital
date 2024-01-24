@@ -68,6 +68,10 @@ $totalProdutos = 0; ?>
                 background: initial;
                 page-break-after: always;
             }
+
+            .logo_imprimir{
+                margin-top: 25px;
+            }
         }
     </style>
 </head>
@@ -87,7 +91,7 @@ $totalProdutos = 0; ?>
                                                 <tr>
                                                     <td colspan="3" class="alert">Você precisa configurar os dados do emitente. >>><a href="<?php echo base_url(); ?>index.php/mapos/emitente">Configurar</a>
                                                         <<<< /td>
-                                                </tr> <?php } else { ?><td style="width: 20%"><img src=" <?php echo $emitente->url_logo; ?> "></td>
+                                                </tr> <?php } else { ?><td style="width: 20%;"><img class="logo_imprimir" src=" <?php echo $emitente->url_logo; ?> "></td>
                                                 <td>
                                                     <span style="font-size: 17px;"><?php echo $emitente->nome; ?></span></br>
                                                     <?php if($emitente->cnpj != "00.000.000/0000-00") { ?><span class="icon"><i class="fas fa-fingerprint" style="margin:5px 1px"></i> <?php echo $emitente->cnpj; ?></span></br><?php } ?>
