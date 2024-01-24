@@ -4,13 +4,14 @@ $totalProdutos = 0; ?>
 <html lang="pt-br">
 
 <head>
-    <title>Map_OS_<?php echo $result->idOs ?>_<?php echo $result->nomeCliente ?></title>
+    <title><?= $this->config->item('app_name') ?> - <?php echo $result->idOs ?>_<?php echo $result->nomeCliente ?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/matrix-style.css" />
+    <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png" />
     <link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="<?= base_url('assets/css/custom.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css'); ?>" rel="stylesheet">    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
     <style>
         body {
