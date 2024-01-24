@@ -120,6 +120,9 @@
                                     <option value="{DATA_FINAL}">Data Final</option>
                                     <option value="{DATA_INICIAL}">Data Inicial</option>
                                     <option value="{DATA_GARANTIA}">Data da Garantia</option>
+                                     <!-- add 02 dados para envio de messagem pelo whatsapp -->
+                                    <option value="{CLIENTE_CELULAR}">Cliente Celular</option>
+                                    <option value="{CLIENTE_EMAIL}">Cliente E-mail</option>
                                 </select>
                             </div>
                             <span6 class="span10">
