@@ -9,7 +9,7 @@ $config['app_version'] = '4.42.0';
 /**
  * Nome do sistema
  */
-$config['app_name'] = 'Map-OS';
+$config['app_name'] = 'Ptech-OS';
 
 /**
  * Descrição do sistema
@@ -19,7 +19,7 @@ $config['app_subname'] = 'Sistema de Controle de Ordens de Serviço';
 /**
  * Definição da hora local.
  */
-date_default_timezone_set('America/Sao_Paulo');
+date_default_timezone_set('America/Bahia');
 
 /*
 |--------------------------------------------------------------------------
